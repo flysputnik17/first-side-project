@@ -1,3 +1,4 @@
+@import url(../blocks/rotation.css);
 .header {
   height: 100vh;
   min-height: 600px;
@@ -6,7 +7,7 @@
   position: relative;
   background-color: #f2f2f2;
   z-index: -1;
-  /* parameters for the header section */
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -39,7 +40,7 @@
   bottom: 30px;
   left: 64px;
 }
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -48,6 +49,8 @@
   position: absolute;
   right: 0;
   top: 64px;
+  transform: rotate(-15deg);
+  animation: rotation 20s infinite linear;
 }
 
 .header__main-illustration {
