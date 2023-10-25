@@ -1,8 +1,10 @@
+@import url(../blocks/rotation.css);
 .kaufman {
   background-color: #1f1f1f;
   color: white;
   overflow: hidden;
   position: relative;
+  padding: 90px 0 90px 0;
 }
 .section__title-theme_dark {
   width: 60%;
@@ -66,10 +68,11 @@
 
 .kaufman__triangle {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: -124px;
   width: 660px;
   height: 636px;
+  animation: rotation 20s infinite linear;
 }
 
 /* .table__cell_theme_dark {

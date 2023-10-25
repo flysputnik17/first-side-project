@@ -1,13 +1,13 @@
 .Oakley {
-  margin: 100px 0 160px 0;
-  padding: 0;
+  padding: 100px 0 160px 0;
+  margin: 0;
   display: flex;
-  position: relative;
+  background-color: #f2f2f2;
 }
 
 .two-columns-oakley {
   width: 80%;
-  margin: 100px auto 100px auto;
+  margin: 0 auto 0 auto;
   display: flex;
   justify-content: space-between;
 }

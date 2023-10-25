@@ -1,5 +1,5 @@
 .digits {
-  margin-top: 100px;
+  margin: 100px auto 100px auto;
 }
 .section {
   display: flex;
@@ -8,7 +8,8 @@
 
 .section__title {
   width: 60%;
-  margin: 100px auto 20px auto;
+  margin: 0 auto 0 auto;
+  padding: 100px 0 20px 0;
   text-align: center;
   line-height: 69px;
   font-size: 60px;
