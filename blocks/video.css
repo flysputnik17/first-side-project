@@ -1,5 +1,5 @@
 .video {
-  padding: 100px 0 0;
+  margin: 100px 0 0;
   text-align: center;
 }
 
@@ -14,7 +14,6 @@
 .video__subtitle {
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
   width: 60%;
   margin: 0 auto 50px auto;
 }
@@ -29,6 +28,7 @@
 }
 
 .video__iframe {
+  border: none;
   width: 515px;
   height: 316px;
 }
