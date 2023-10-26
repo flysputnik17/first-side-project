@@ -2,7 +2,7 @@
 
 This is the first side project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
-![alt-text](./images/landing%20page.png)
+![alt-text](./images/Leraning%20how%20to%20learn%20landing%20page.png)
 
 ## Project features
 
