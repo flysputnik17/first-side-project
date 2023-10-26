@@ -23,7 +23,8 @@
   width: 730px;
   z-index: 1;
   align-self: center;
-  margin: 0 0 0 64px;
+  margin: 0;
+  padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
